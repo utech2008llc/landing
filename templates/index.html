@@ -1,0 +1,697 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% url 'home_page' as home_page %}
+
+{% block content %}
+
+ <div id="preloader"></div>
+
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1" aria-expanded="false">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="{{ home_page }}">
+                  <!-- <h1><span>e</span>Business</h1> -->
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <img src="{% static 'img/brand.png' %}" alt="" title="" style="height: 40px">
+				</a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#about">About</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#technologies">Technologies</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#model">Model</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src='{% static "img/slider2/1.jpg" %}'   alt="" title="#slider-direction-1" />
+        <img src='{% static "img/slider2/2.jpg" %}'   alt="" title="#slider-direction-2" />
+        <img src='{% static "img/slider2/3.jpg" %}'  alt="" title="#slider-direction-3" />
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <!-- <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">The Best Business Information </h2>
+                </div> -->
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp text-left" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Think.<br>Create.<br>Implement.</h1>
+                  <h4 class="title2" style="color: white">We build real projects step-by-step</h4>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" href="#contact">Get in touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <!-- <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">The Best Business Information </h2>
+                </div> -->
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp text-left" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Think.<br>Create.<br>Implement.</h1>
+                  <h4 class="title2" style="color: white">We build real projects step-by-step</h4>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" href="#contact">Get in touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <!-- <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">The Best business Information </h2>
+                </div> -->
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp text-left" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">Think.<br>Create.<br>Implement.</h1>
+                  <h4 class="title2" style="color: white">We build real projects step-by-step</h4>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn page-scroll" href="#contact">Get in touch</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider Area -->
+
+  <!-- Start About area -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>About UTECH</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-left">
+            <div class="single-well">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1062489.22586258!2d-82.65563872716432!3d42.19292811504621!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824bb76d28a495d%3A0xcccd37c53c8d189!2sOld+Orchard+Trail%2C+Orchard+Lake+Village%2C+MI+48324%2C+USA!5e0!3m2!1sen!2sua!4v1543504674035" width="100%" height="100%" frameborder="0" style="width:100%; height: 100%; min-width:100%; min-height: 373px; border:0" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well pt-3">
+              <p>
+                  Utech LLC was founded in 2008 to serve the needs of domestic automotive industry in the area of path planning and electronic stability control of ground vehicles.
+              </p>
+                <p>The company played the leading role in interdisciplinary projects conducted by multinational teams of highly qualified experts in programing, structural dynamics and control.
+                </p>
+                <p>Utech LLC is located in West Bloomfield, MI, USA.
+              </p>
+              <!-- <ul>
+                <li>
+                  <i class="fa fa-check"></i> Interior design Package
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Building House
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Reparing of Residentail Roof
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Renovaion of Commercial Office
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> Make Quality Products
+                </li>
+              </ul> -->
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <!-- End About area -->
+
+  <!-- Start Service area -->
+  <div id="services" class="services-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline services-head text-center">
+            <h2>Services we offer</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="services-contents">
+        	<div class="" style="
+        	  display: -ms-flexbox;
+			  display: flex;
+			  -ms-flex-wrap: wrap;
+			  flex-wrap: wrap;
+			  margin-right: -15px;
+			  margin-left: -15px;
+			  ">
+	          <div class="col-md-4 col-sm-6">
+	            <div class="about-move">
+	              <div class="services-details">
+	                <div class="single-services">
+	                  <!--<a class="services-icon" href="#">-->
+							<i class="fa fa-laptop"></i>
+						<!--</a>-->
+	                  <h4>Сustomized software engineering</h4>
+	                  <p>
+	                    Benefit from state-of-the-art technologies and practices that ensure the delivery of high-end software products.
+	                  </p>
+	                </div>
+	              </div>
+	              <!-- end about-details -->
+	            </div>
+	          </div>
+	          <div class="col-md-4 col-sm-6">
+	            <div class="about-move">
+	              <div class="services-details">
+	                <div class="single-services">
+	                  <!--<a class="services-icon" href="#">-->
+												<i class="fa fa-camera-retro"></i>
+											<!--</a>-->
+	                  <h4>UI/UX Design</h4>
+	                  <p>
+	                    Thoughtful design for product interfaces and user experience to establish dynamic interaction models, streamline user task flows, and clear layouts.
+	                  </p>
+	                </div>
+	              </div>
+	              <!-- end about-details -->
+	            </div>
+	          </div>
+	          <div class="col-md-4 col-sm-6">
+	            <!-- end col-md-4 col-sm-6 -->
+	            <div class=" about-move">
+	              <div class="services-details">
+	                <div class="single-services">
+	                  <!--<a class="services-icon" href="#">-->
+							<i class="fa fa-bar-chart"></i>
+						<!--</a>-->
+	                  <h4>Software testing</h4>
+	                  <p>
+	                    Comprehensive software testing and business analysis services adapted to specific needs of each project to ensure its prompt delivery.
+	                  </p>
+	                </div>
+	              </div>
+	              <!-- end about-details -->
+	            </div>
+	          </div>
+	          <!-- <div class="d-none d-md-flex" style="width: 100% !important; position: relative;" ></div> -->
+	          <div class="col-md-4 col-sm-6">
+	            <!-- end col-md-4 col-sm-6 -->
+	            <div class=" about-move">
+	              <div class="services-details">
+	                <div class="single-services">
+	                  <!--<a class="services-icon" href="#">-->
+							<i class="fa fa-code"></i>
+						<!--</a>-->
+	                  <h4>Architecture & code review</h4>
+	                  <p>
+	                    Meticulously reviewing the architecture and code of your software and, finding its tiniest bottlenecks for improving its quality and security.
+	                  </p>
+	                </div>
+	              </div>
+	              <!-- end about-details -->
+	            </div>
+	          </div>
+	          <div class="col-md-4 col-sm-6">
+	            <!-- end col-md-4 col-sm-6 -->
+	            <div class=" about-move">
+	              <div class="services-details">
+	                <div class="single-services">
+	                  <!--<a class="services-icon" href="#">-->
+							<i class="fa fa-line-chart"></i>
+						<!--</a>-->
+	                  <h4>Support & maintenance</h4>
+	                  <p>
+	                    Support and maintenance for in-house-developed and third-party solutions throughout their lifecycle.
+	                  </p>
+	                </div>
+	              </div>
+	              <!-- end about-details -->
+	            </div>
+	          </div>
+	          <div class="col-md-4 col-sm-6">
+	            <!-- end col-md-4 col-sm-6 -->
+	            <div class=" about-move">
+	              <div class="services-details">
+	                <div class="single-services">
+	                  <!--<a class="services-icon" href="#">-->
+							<i class="fa fa-desktop"></i>
+						<!--</a>-->
+	                  <h4>Industrial applications</h4>
+	                  <p>
+	                    Consulting, custom codes and nonstandard solutions for structural dynamics and control
+	                  </p>
+	                </div>
+	              </div>
+	              <!-- end about-details -->
+	            </div>
+	          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Service area -->
+	<div id="technologies" class="container-fluid" style="background-color: #f9f9f9; padding: 50px 0;">
+		<div class="container">
+			<div class="section-headline services-head text-center" style="padding: 50px 0; ">
+	            <h2>Technologies we use</h2>
+	          </div>
+			<div class="row">
+				<div class="col-12" style="position: relative;">
+					<div class="divider1 divider"></div>
+					<div class="divider2 divider"></div>
+					<div class="divider3 divider"></div>
+					<div class="divider4 divider"></div>
+					<div class="divider2-1 divider"></div>
+					<div class="divider2-2 divider"></div>
+					<div class="divider2-3 divider"></div>
+					<div class="divider2-4 divider"></div>
+					<table class="table text-center">
+						<tbody>
+							<tr>
+						      <td colspan="1"><img src='{% static "img/logos-tools/php.png" %}'></td>
+                              <td colspan="1"><img src='{% static "img/logos-tools/laravel.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/node.png" %}'></td>
+						    </tr>
+						    <tr>
+						      <td colspan="1"><img src='{% static "img/logos-tools/bs.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/html.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/css.png" %}'></td>
+						    </tr>
+						    <tr>
+						      <td colspan="1"><img src='{% static "img/logos-tools/postgresql.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/mysql.png" %}'></td>
+                              <td colspan="1"><img src='{% static "img/logos-tools/json.png" %}'></td>
+						    </tr>
+						    <tr>
+                              <td colspan="1"><img src='{% static "img/logos-tools/vue.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/jQuery.png" %}'></td>
+                              <td colspan="1"><img src='{% static "img/logos-tools/ajax.png" %}'></td>
+						    </tr>
+                             <tr>
+                              <td colspan="1"><img src='{% static "img/logos-tools/python.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/django.png" %}'></td>
+						      <td colspan="1"><img src='{% static "img/logos-tools/uikit.png" %}'></td>
+						    </tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Faq area start -->
+  <div class="faq-area area-padding" id="model">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Model we follow</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-center" style="
+			display: -ms-flexbox;
+			display: flex;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			margin-right: -15px;
+			margin-left: -15px;
+      ">
+        <div class="col-md-8">
+          <div class="faq-details">
+            <div class="panel-group" id="accordion">
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+						<a data-toggle="collapse" class="active" data-parent="#accordion" href="#check1">
+	                        <span class="acc-icons"></span>Fixed ProjectWorking conditions
+						</a>
+					</h4>
+                </div>
+                <div id="check1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                  	<div class="float-left">
+                  		<img src='{% static "img/collapse/1.jpg" %}'>
+                  	</div>
+                    <p>
+                        - Fixed price and project scope
+						<br>- UTECH takes the risk
+						<br>- No supervision from your side required
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#check2">
+                                                <span class="acc-icons"></span> Dedicated Team
+											</a>
+										</h4>
+                </div>
+                <div id="check2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                  	<div class="float-left">
+                  		<img src='{% static "img/collapse/2.jpg" %}'>
+                  	</div>
+                    <p>
+                    	- Highly scalable resources
+						<br>- Confidentiality of project contents
+						<br>- Fixed budget and predictable timeframe
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#check3">
+                                                <span class="acc-icons"></span>Time frames and Material Resources
+											</a>
+										</h4>
+                </div>
+                <div id="check3" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                  	<div class="float-left">
+                  		<img src='{% static "img/collapse/3.jpg" %}'>
+                  	</div>
+                    <p>
+                      	- Adjustable scope, negotiable cost, and timeframes
+						<br>- Flexibility to your changing requirements and budget updates
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                                                <span class="acc-icons"></span>Extended Team
+											</a>
+										</h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                  	<div class="float-left">
+                  		<img src='{% static "img/collapse/4.jpg" %}'>
+                  	</div>
+                    <p>
+                      	- Fully dedicated technology experts
+						<br>- Transparent and predictable budgets
+						<br>- Flexible team built to comply with your requirements
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end Row -->
+    </div>
+  </div>
+  <!-- End Faq Area -->
+
+  <!-- Start Wellcome Area -->
+  <div class="wellcome-area">
+    <div class="well-bg">
+      <div class="test-overly"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="wellcome-text">
+              <div class="well-text text-center">
+                <h2>Welcome To Utech LLC</h2>
+                <p>
+                  Subscribe to the newsletter and be the first to learn about our new projects
+                </p>
+                <div class="subs-feilds">
+                  <div class="suscribe-input">
+                      <form method="POST">{% csrf_token %}
+                      {{ form_subscribers }}
+                      <button type="submit" id="sus_submit" class="add-btn width-20">Subscribe</button>
+                      </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Wellcome Area -->
+
+
+  <!-- Start contact Area -->
+  <div id="contact" class="contact-area area-padding py-3>
+    <div class="contact-inner area-padding">
+      <div class="contact-overly"></div>
+      <div class="container mt-5">
+        <div class="row pt-5">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>Contact us</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center" style="
+            display: -ms-flexbox;
+		    display: flex;
+		    -ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
+		    margin-right: -15px;
+		    margin-left: -15px;">
+
+          <!-- Start  contact -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="form contact-form">
+              <!--<div id="sendmessage">Your message has been sent. Thank you!</div>-->
+              <!--<div id="errormessage"></div>-->
+              <!--<form action="" method="post" role="form" class="contactForm">-->
+                <!--<div class="form-group">-->
+                  <!--<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />-->
+                  <!--<div class="validation"></div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                  <!--<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />-->
+                  <!--<div class="validation"></div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                  <!--<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />-->
+                  <!--<div class="validation"></div>-->
+                <!--</div>-->
+                <!--<div class="form-group">-->
+                  <!--<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>-->
+                  <!--<div class="validation"></div>-->
+                <!--</div>-->
+                <!--<div class="text-center"><button type="submit">Send Message</button></div>-->
+              <!--</form>-->
+                <form method="POST">{% csrf_token %}
+                    {{form.as_p}}
+                    <div class="text-center"><button type="submit">Send Message</button></div>
+                </form>
+
+            </div>
+          </div>
+          <!-- End Left contact -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Contact Area -->
+
+  <!-- Start Footer bottom Area -->
+  <footer>
+    <!-- <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2><span>e</span>Business</h2>
+                </div>
+
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Tel:</span> +123 456 789</p>
+                  <p><span>Email:</span> contact@example.com</p>
+                  <p><span>Working Hours:</span> 9am-5pm</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a href="#"><img src="img/portfolio/1.jpg" alt=""></a>
+                  <a href="#"><img src="img/portfolio/2.jpg" alt=""></a>
+                  <a href="#"><img src="img/portfolio/3.jpg" alt=""></a>
+                  <a href="#"><img src="img/portfolio/4.jpg" alt=""></a>
+                  <a href="#"><img src="img/portfolio/5.jpg" alt=""></a>
+                  <a href="#"><img src="img/portfolio/6.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                &copy; Copyright <strong>UTECH</strong>. All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src='{% static "lib/jquery/jquery.min.js" %}'></script>
+  <script src='{% static "lib/bootstrap/js/bootstrap.min.js" %}'></script>
+  <script src='{% static "lib/owlcarousel/owl.carousel.min.js" %}'></script>
+  <script src='{% static "lib/venobox/venobox.min.js" %}'></script>
+  <script src='{% static "lib/knob/jquery.knob.js" %}'></script>
+  <script src='{% static "lib/wow/wow.min.js" %}'></script>
+  <script src='{% static "lib/parallax/parallax.js" %}'></script>
+  <script src='{% static "lib/easing/easing.min.js" %}'></script>
+  <script src='{% static "lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript" %}'></script>
+  <script src='{% static "lib/appear/jquery.appear.js" %}'></script>
+  <script src='{% static "lib/isotope/isotope.pkgd.min.js" %}'></script>
+
+  <!-- Contact Form JavaScript File -->
+  <!--<script src='{% static "contactform/contactform.js" %}'></script>-->
+
+  <script src='{% static "js/main.js" %}'></script>
+
+
+{% endblock %}
