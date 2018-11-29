@@ -64,33 +64,6 @@
    }
 },
 {
-   "model": "sessions.session",
-   "pk": "y918kuz2cv3xhdyse6qlhdx0d8mzf1qr",
-   "fields": {
-      "session_data": "NGNkZjNjYjc1Y2I1YTllMWJiYTIyY2M2MzNlOTM3NDAxZjI1YjcyNDp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI4ZmM4ODdkMmVmNWM1ZDQ5NGRkZDU1YzhiZGRiYTdkYWZkZmJlYzNhIn0=",
-      "expire_date": "2018-12-13T17:10:37.222Z"
-   }
-},
-{
-   "model": "clients.contact",
-   "pk": 1,
-   "fields": {
-      "name": "Test",
-      "email": "test@gmail.com",
-      "subject": "Test",
-      "message": "Test",
-      "created": "2018-11-29T17:10:11.481Z",
-      "is_active": true
-   }
-},
-{
-   "model": "subscribers.subscriber",
-   "pk": 1,
-   "fields": {
-      "email": "test@gmail.com"
-   }
-},
-{
    "model": "auth.permission",
    "pk": 1,
    "fields": {
@@ -382,16 +355,16 @@
    "model": "auth.user",
    "pk": 1,
    "fields": {
-      "password": "pbkdf2_sha256$120000$xO81mSfS8RJb$fqW4ionAvbGGYUh0UfCrhOyg3CRiN8BCOUflik/m8X8=",
-      "last_login": "2018-11-29T17:10:37.209Z",
+      "password": "pbkdf2_sha256$120000$XvuyfzvghxGJ$CGEJ+BbPl3FOIS4BBnDcfkPb54TQ6fIpRhVeszkKAMU=",
+      "last_login": null,
       "is_superuser": true,
       "username": "utech2008",
       "first_name": "",
       "last_name": "",
-      "email": "utech2008@gmail.com",
+      "email": "",
       "is_staff": true,
       "is_active": true,
-      "date_joined": "2018-11-29T17:09:24.312Z",
+      "date_joined": "2018-11-29T18:09:20.872Z",
       "groups": [],
       "user_permissions": []
    }
